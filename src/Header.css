@@ -7,11 +7,43 @@
  
  .header__left{
     display: flex;
+    padding-left: 5px;
     align-items: center;
  }
 
  .header__left>img{
     object-fit: contain;
-    height: 70px;
+    height: 62px;
     margin-left: 5px;
+ }
+
+ .header__middle{
+   display: flex;
+   flex: 0.7;
+   background-color: whitesmoke;
+   border-radius: 5px;
+   padding: 10px;
+   align-items: center;
+ } 
+
+ .header__middle > .MuiSvgIcon-root{
+   color: grey
+ }
+
+ .header__middle > input{
+   border: none;
+   width: 100%;
+   padding: 6px;
+   background-color: transparent;
+   font-size: medium;
+   outline: none;
+ }
+
+ .header__right{
+   display: flex;
+   padding-right: 20px;
+ }
+
+ .header__right > .Avatar{
+   height: 90%;
  }
